@@ -1,0 +1,54 @@
+<div class="text-center p-5 wow fadeIn" data-wow-delay="0.5s" style="background-color:#f8f2f06b; border-radius:15px">
+    <form id="quoteForm">
+        <div class="row g-3">
+            <div class="col-12 col-sm-12">
+                <input type="text" name="name" class="form-control border-0" placeholder="Name" style="height: 55px;">
+            </div>
+            <div class="col-12 col-sm-12">
+                <input type="email" name="email" class="form-control border-0" placeholder="Email" style="height: 55px;">
+            </div>
+            <div class="col-12 col-sm-12">
+                <input type="text" name="subject" class="form-control border-0" placeholder="Subject" style="height: 55px;">
+            </div>
+            <div class="col-12">
+                <textarea name="message" class="form-control border-0" placeholder="Message"></textarea>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+            </div>
+        </div>
+</form>
+</div>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+
+<!-- EmailJS Script -->
+<script type="text/javascript">
+    emailjs.init("R-_7IAKgaj3Wl0f2Q");
+    document.getElementById('quoteForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const subject = document.getElementById('subject').value;
+        const message = document.getElementById('message').value;
+
+        const templateParams = {
+            subject: subject,
+            name: name,
+            email: email,
+            message: message
+        };
+        // Send the form data using EmailJS
+        emailjs.send('service_3zoina6', 'template_63m0ilw',templateParams)
+         .then(function (response) {
+             console.log("Success:", response);
+             alert("Your message has been sent!");
+         }, function (error) {
+             console.error("Error:", error);
+             alert("Sorry, there was an issue sending your message. Please try again later.");
+         });
+    });
+</script>
