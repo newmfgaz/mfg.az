@@ -1,0 +1,51 @@
+{
+  "langCode": "EN",
+  "meta": {
+    "home": "My Freight - Home",
+    "about": "My Freight - About Us",
+    "contact": "My Freight - Contact",
+    "services": "My Freight - Services"
+  },
+  "common": { "loading": "Loading..." },
+  "nav": { "home": "Home", "about": "About", "services": "Services", "contact": "Contact" },
+  "hero": { "title": "My Freight Group", "subtitle": "For the best logistics solution" },
+  "about": {
+    "section": "About",
+    "title": "My Freight Group",
+    "text": "Based in Azerbaijan, we provide high-quality logistics services worldwide.",
+    "missionTitle": "Our Mission",
+    "missionText": "Connecting Azerbaijan with the world through seamless, safe, and efficient transport solutions for businesses and individuals."
+  },
+  "services": {
+    "section": "Services",
+    "subtitle": "We offer a wide range of logistics services",
+    "air":  { "title": "Air Freight",  "desc": "Fast and reliable air freight from anywhere in the world to Azerbaijan." },
+    "sea":  { "title": "Sea Freight",  "desc": "Cost-effective and reliable sea transport for large and small shipments." },
+    "road": { "title": "Road Freight", "desc": "Efficient road transport between Azerbaijan and other countries." },
+    "rail": { "title": "Rail Freight", "desc": "Efficient rail transport between Azerbaijan and other countries." }
+  },
+  "why": {
+    "title": { "part1": "WHY", "part2": "MY FREIGHT GROUP" },
+    "item1": "We combine deep local knowledge with international expertise to deliver effective logistics for local businesses and global supply chains.",
+    "item2": "Every shipment is unique. We tailor solutions to your needs.",
+    "item3": "Our team supports you at every step—from first inquiry to final handover.",
+    "item4": "We aim to deliver cost-effective transport with high quality."
+  },
+  "contact": { 
+    "section": "Contact",
+    "title": "We are ready to help!" 
+  },
+  "form": {
+    "name":    { "label": "Name",    "placeholder": "Name" },
+    "email":   { "label": "Email",   "placeholder": "Email" },
+    "subject": { "label": "Subject", "placeholder": "Subject" },
+    "message": { "label": "Message", "placeholder": "Your message" },
+    "send": "Send Message"
+  },
+  "footer": {
+    "addressTitle": "Address",
+    "addressLine": "AZ1030, Baku city, Khatai district, Mingachevir, House 20H",
+    "servicesTitle": "Services",
+    "linksTitle": "Links"
+  }
+}

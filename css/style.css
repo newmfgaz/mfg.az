@@ -163,6 +163,56 @@
     }
 }
 
+.navbar .mf-lang-btn {
+    padding: .4rem .9rem;
+    line-height: 1;
+    border-width: 2px;
+}
+
+@media (min-width:992px) {
+    .navbar .mf-lang-btn {
+        padding: .45rem 1rem;
+    }
+}
+
+/* Mobile: свитчер как обычный пункт меню (без рамок и лишнего пространства) */
+@media (max-width:991.98px) {
+    .navbar .mf-lang-link-mobile {
+        padding: 10px 0 !important;
+        /* совпадает с твоими .nav-link на мобиле */
+        margin: 0 !important;
+        border: 0 !important;
+        line-height: 1.2;
+    }
+
+    .navbar .mf-lang-mobile .dropdown-menu {
+        min-width: 10rem;
+        /* чтобы влезали подписи; можно убрать */
+    }
+}
+
+.navbar .mf-lang-btn {
+    padding: .4rem .9rem;
+    line-height: 1;
+    border-width: 2px;
+}
+
+@media (min-width:992px) {
+    .navbar .mf-lang-btn {
+        padding: .45rem 1rem;
+    }
+}
+
+/* mobile language link behaves like a normal nav-link */
+@media (max-width:991.98px) {
+    .navbar .mf-lang-link-mobile {
+        padding: 10px 0 !important;
+        margin: 0 !important;
+        border: 0 !important;
+        line-height: 1.2;
+    }
+}
+
 
 /*** Header ***/
 @media (max-width: 768px) {
@@ -517,11 +567,31 @@
     color: rgb(240, 104, 52) !important;
 }
 
-.submit-border{
+.submit-border {
     border-radius: 10px;
 }
 
-.input-border
-{
+.input-border {
     border-radius: 15px;
+}
+
+.text-secondary{
+    color: black !important;
+}
+
+/* Responsive navbar logo (new) */
+.navbar .brand-logo {
+  display: block;
+  height: clamp(28px, 6vw, 48px); /* scales with viewport, capped */
+  width: auto;                    /* keep aspect ratio */
+  max-width: 100%;
+}
+
+/* If your anchor has a fixed height (75px), keep the logo comfortably inside */
+@media (min-width: 992px) {
+  .navbar .brand-logo { height: 48px; }
+}
+
+@media (max-width: 991.98px) {
+  .navbar .brand-logo { height: 36px; } /* a bit smaller on mobile */
 }

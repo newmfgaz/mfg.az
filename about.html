@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>My Freight - Haqqımızda</title>
+    <title data-i18n="meta.about">My Freight - Haqqımızda</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -14,7 +14,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -33,7 +34,8 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -42,34 +44,18 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
-        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
-            <img src="img/logo1.webp" alt="">
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Əsas</a>
-                <a href="about.html" class="nav-item nav-link active">Haqqımızda</a>
-                <a href="service.html" class="nav-item nav-link">Xidmətlər</a>
-                <a href="contact.html" class="nav-item nav-link">Əlaqə</a>
-            </div>
-            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+994 10 234 70 40</h4>
-        </div>
-    </nav>
+    <div id="nav"></div>
     <!-- Navbar End -->
 
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
         <div class="container py-5">
-            <h1 class="display-3 text-white page-text mb-3 animated slideInDown">Haqqımızda</h1>
+            <h1 class="display-3 text-white page-text mb-3 animated slideInDown" data-i18n="about.section">Haqqımızda</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Əsas</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Haqqımızda</li>
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html" data-i18n="nav.home">Əsas</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page" data-i18n="about.section">Haqqımızda</li>
                 </ol>
             </nav>
         </div>
@@ -83,18 +69,23 @@
             <div class="row g-5 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg"
+                            style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="text-secondary text-uppercase mb-3">Haqqımızda</h6>
-                    <h1 class="mb-5 page-text">My Freight Group</h1>
-                    <p class="mb-5">Azərbaycanda yerləşən etibarlı yükdaşıma şirkəti olaraq, qlobal miqyasda yüksək keyfiyyətli logistika xidmətləri təqdim edirik.</p>
+                    <h6 class="text-secondary text-uppercase mb-3" data-i18n="about.section">Haqqımızda</h6>
+                    <h1 class="mb-5 page-text" data-i18n="about.title">My Freight Group</h1>
+                    <p class="mb-5" data-i18n="about.text">Azərbaycanda yerləşən etibarlı yükdaşıma şirkəti olaraq,
+                        qlobal miqyasda yüksək keyfiyyətli logistika xidmətləri təqdim edirik.</p>
+
                     <div class="row g-4 mb-5">
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                             <i class="fa fa-globe fa-3x text-primary mb-3"></i>
-                            <h5>Missiyamız</h5>
-                            <p class="m-0">Azərbaycanı dünya ilə birləşdirərək, bizneslər və fərdi şəxslər üçün fasiləsiz, təhlükəsiz və səmərəli nəqliyyat həlləri təklif etməkdir.</p>
+                            <h5 data-i18n="about.missionTitle">Missiyamız</h5>
+                            <p class="m-0" data-i18n="about.missionText">Azərbaycanı dünya ilə birləşdirərək, bizneslər
+                                və fərdi şəxslər üçün fasiləsiz, təhlükəsiz və səmərəli nəqliyyat həllləri təklif
+                                etməkdir.</p>
                         </div>
                     </div>
                 </div>
@@ -108,74 +99,96 @@
         <div class="container feature py-5 px-lg-0">
             <div class="row g-5 mx-lg-0">
                 <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="mb-5">NİYƏ <span class="page-text">MY FREIGHT GROUP</span></h1>
+                    <h1 class="mb-5">
+                      <span data-i18n="why.title.part1">NİYƏ</span>
+                      <span class="text-primary" data-i18n="why.title.part2">MY FREIGHT GROUP</span>
+                    </h1>
                     <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
                         <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
                         <div class="ms-4">
-                            <p class="mb-0">Dərin yerli bilik və beynəlxalq təcrübəni birləşdirərək, həm yerli bizneslər, həm də qlobal tədarük zəncirləri üçün effektiv logistika həlləri təqdim edirik.</p>
+                            <p class="mb-0" data-i18n="why.item1">Dərin yerli bilik və beynəlxalq təcrübəni
+                                birləşdirərək, həm yerli bizneslər, həm də qlobal tədarük zəncirləri üçün effektiv
+                                logistika həllləri təqdim edirik.</p>
                         </div>
                     </div>
+
                     <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
                         <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
                         <div class="ms-4">
-                            <p class="mb-0">Hər bir yük fərqlidir. Biz sizin xüsusi ehtiyaclarınıza uyğun fərdiləşdirilmiş yükdaşıma həlləri təklif edirik.</p>
+                            <p class="mb-0" data-i18n="why.item2">Hər bir yük fərqlidir. Biz sizin xüsusi
+                                ehtiyaclarınıza uyğun fərdiləşdirilmiş yükdaşıma həllləri təklif edirik.</p>
                         </div>
                     </div>
+
                     <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.7s">
                         <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
                         <div class="ms-4">
-                            <p class="mb-0">Peşəkar komandamız sizə hər addımda – ilkin sorğudan son təhvilə qədər kömək etməyə hazırdır.</p>
+                            <p class="mb-0" data-i18n="why.item3">Peşəkar komandamız sizə hər addımda – ilkin sorğudan
+                                son təhvilə qədər kömək etməyə hazırdır.</p>
                         </div>
                     </div>
+
                     <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
                         <i class="fa fa-lightbulb text-primary fa-3x flex-shrink-0"></i>
                         <div class="ms-4">
-                            <p class="mb-0">Yüksək keyfiyyətli xidmət ilə sərfəli nəqliyyat həlləri təqdim etməyi hədəfləyirik.</p>
+                            <p class="mb-0" data-i18n="why.item4">Yüksək keyfiyyətli xidmət ilə sərfəli nəqliyyat
+                                həllləri təqdim etməyi hədəfləyirik.</p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg"
+                            style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Feature End -->
-<!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-4 col-md-6">
-                        <h4 class="text-light mb-4">Ünvan</h4>
-                        <p class="mb-2 adress-text">
-                            <i class="fa fa-map-marker-alt me-3" style="vertical-align: middle;"></i> 
-                            <span>AZ1030, BAKI ŞƏHƏRİ, XƏTAİ RAYONU, MİNGƏÇEVİR, EV 20H</span>
-                        </p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+994 10 234 70 40</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>operations@mfg.az</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61571037012830"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/myfreight.az/"><i class="fab fa-instagram"></i></a>
-                        </div>
+     
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4" data-i18n="footer.addressTitle">Ünvan</h4>
+                    <p class="mb-2 adress-text">
+                        <i class="fa fa-map-marker-alt me-3" style="vertical-align: middle;"></i>
+                        <span data-i18n="footer.addressLine">AZ1030, BAKI ŞƏHƏRİ, XƏTAİ RAYONU, MİNGƏÇEVİR, EV
+                            20H</span>
+                    </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+994 10 234 70 40</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>operations@mfg.az</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://www.facebook.com/profile.php?id=61571037012830"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/myfreight.az/"><i
+                                class="fab fa-instagram"></i></a>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                     <h4 class="text-light mb-4">Xidmətlər</h4>
-                        <a class="btn btn-link" href="service.html">Hava Yükdaşıması</a>
-                        <a class="btn btn-link" href="service.html">Dəniz Yükdaşıması</a>
-                        <a class="btn btn-link" href="service.html">Quru Yükdaşıması</a>
-                        <a class="btn btn-link" href="service.html">Dəmiryolu Yükdaşıması</a>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <h4 class="text-light mb-4">Linklər</h4>
-                        <a class="btn btn-link" href="service.html">Xidmətlər</a>
-                        <a class="btn btn-link" href="contact.html">Əlaqə</a>
-                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4" data-i18n="footer.servicesTitle">Xidmətlər</h4>
+                    <a class="btn btn-link" href="service.html" data-i18n="services.air.title">Hava Yükdaşıması</a>
+                    <a class="btn btn-link" href="service.html" data-i18n="services.sea.title">Dəniz Yükdaşıması</a>
+                    <a class="btn btn-link" href="service.html" data-i18n="services.road.title">Quru Yükdaşıması</a>
+                    <a class="btn btn-link" href="service.html" data-i18n="services.rail.title">Dəmiryolu
+                        Yükdaşıması</a>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4" data-i18n="footer.linksTitle">Linklər</h4>
+                    <a class="btn btn-link" href="contact.html" data-i18n="nav.contact">Əlaqə</a>
+                    <a class="btn btn-link" href="about.html" data-i18n="nav.about">Haqqımızda</a>
                 </div>
             </div>
         </div>
-        <!-- Footer End --> 
+    </div>
+    <!-- Footer End -->
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
 
@@ -188,7 +201,6 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>

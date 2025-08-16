@@ -1,0 +1,49 @@
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+    <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+        <img src="img/logo1.webp" alt="My Freight logo" class="brand-logo">
+    </a>
+
+    <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link" data-i18n="nav.home">Əsas</a>
+            <a href="about.html" class="nav-item nav-link" data-i18n="nav.about">Haqqımızda</a>
+            <a href="service.html" class="nav-item nav-link" data-i18n="nav.services">Xidmətlər</a>
+            <a href="contact.html" class="nav-item nav-link" data-i18n="nav.contact">Əlaqə</a>
+
+            <!-- Mobile language switcher (compact like a nav-link) -->
+            <div class="nav-item dropdown d-lg-none">
+                <a href="#" class="nav-link dropdown-toggle mf-lang-link-mobile" data-bs-toggle="dropdown"
+                    aria-expanded="false" data-langbtn>AZ</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" data-setlang="az">Azərbaycan</a></li>
+                    <li><a class="dropdown-item" href="#" data-setlang="ru">Русский</a></li>
+                    <li><a class="dropdown-item" href="#" data-setlang="en">English</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Desktop language switcher + phone -->
+        <div class="d-none d-lg-flex align-items-center ms-lg-3 my-2 my-lg-0">
+            <div class="dropdown me-3 me-lg-4">
+                <button class="btn btn-outline-primary btn-sm dropdown-toggle mf-lang-btn" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" data-langbtn>AZ</button>
+                <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+                    <li><a class="dropdown-item" href="#" data-setlang="az">Azərbaycan</a></li>
+                    <li><a class="dropdown-item" href="#" data-setlang="ru">Русский</a></li>
+                    <li><a class="dropdown-item" href="#" data-setlang="en">English</a></li>
+                </ul>
+            </div>
+
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block">
+                <i class="fa fa-headphones text-primary me-3"></i>+994 10 234 70 40
+            </h4>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->

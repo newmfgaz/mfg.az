@@ -1,0 +1,51 @@
+{
+  "langCode": "AZ",
+  "meta": {
+    "home": "My Freight - Əsas",
+    "about": "My Freight - Haqqımızda",
+    "contact": "My Freight - Əlaqə",
+    "services": "My Freight - Xidmətlər"
+  },
+  "common": { "loading": "Yüklənir..." },
+  "nav": { "home": "Əsas", "about": "Haqqımızda", "services": "Xidmətlər", "contact": "Əlaqə" },
+  "hero": { "title": "My Freight Group", "subtitle": "Ən yaxşı logistika həlləri üçün" },
+  "about": {
+    "section": "Haqqımızda",
+    "title": "My Freight Group",
+    "text": "Azərbaycanda yerləşən etibarlı yükdaşıma şirkəti olaraq, qlobal miqyasda yüksək keyfiyyətli logistika xidmətləri təqdim edirik.",
+    "missionTitle": "Missiyamız",
+    "missionText": "Azərbaycanı dünya ilə birləşdirərək, bizneslər və fərdi şəxslər üçün fasiləsiz, təhlükəsiz və səmərəli nəqliyyat həllləri təklif etməkdir."
+  },
+  "services": {
+    "section": "Xidmətlər",
+    "subtitle": "Biz geniş çeşidli logistika xidmətləri təqdim edirik",
+    "air":  { "title": "Hava Yükdaşıması",      "desc": "Dünyanın istənilən nöqtəsindən Azərbaycana sürətli və etibarlı hava yükdaşıma xidmətləri." },
+    "sea":  { "title": "Dəniz Yükdaşıması",      "desc": "Böyük və kiçik yüklər üçün sərfəli və etibarlı dəniz nəqliyyatı xidmətləri." },
+    "road": { "title": "Quru Yükdaşıması",       "desc": "Azərbaycan və dünya ölkələri arasında səmərəli quru nəqliyyatı xidmətləri." },
+    "rail": { "title": "Dəmiryolu Yükdaşıması",  "desc": "Azərbaycan və dünya ölkələri arasında səmərəli dəmiryolu nəqliyyatı xidmətləri." }
+  },
+  "why": {
+    "title": { "part1": "NİYƏ", "part2": "MY FREIGHT GROUP" },
+    "item1": "Dərin yerli bilik və beynəlxalq təcrübəni birləşdirərək, həm yerli bizneslər, həm də qlobal tədarük zəncirləri üçün effektiv logistika həllləri təqdim edirik.",
+    "item2": "Hər bir yük fərqlidir. Biz sizin xüsusi ehtiyaclarınıza uyğun fərdiləşdirilmiş yükdaşıma həllləri təklif edirik.",
+    "item3": "Peşəkar komandamız sizə hər addımda – ilkin sorğudan son təhvilə qədər kömək etməyə hazırdır.",
+    "item4": "Yüksək keyfiyyətli xidmət ilə sərfəli nəqliyyat həllləri təqdim etməyi hədəfləyirik."
+  },
+  "contact": { 
+    "section": "Əlaqə",
+    "title": "Sizə kömək etməyə hazırıq!" 
+  },
+  "form": {
+    "name":    { "label": "Ad",    "placeholder": "Ad" },
+    "email":   { "label": "Email", "placeholder": "Email" },
+    "subject": { "label": "Mövzu", "placeholder": "Mövzu" },
+    "message": { "label": "Mesaj", "placeholder": "Mesajınız" },
+    "send": "Mesaj göndər"
+  },
+  "footer": {
+    "addressTitle": "Ünvan",
+    "addressLine": "AZ1030, BAKI ŞƏHƏRİ, XƏTAİ RAYONU, MİNGƏÇEVİR, EV 20H",
+    "servicesTitle": "Xidmətlər",
+    "linksTitle": "Linklər"
+  }
+}
