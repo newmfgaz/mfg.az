@@ -270,29 +270,4 @@
         const last = p.split('/').pop();                     // last segment
         return last && last !== '/' ? last : 'index.html';
     }
-
-    emailjs.init("R-_7IAKgaj3Wl0f2Q");
-    document.getElementById('quoteForm').addEventListener('submit', function (event) {
-        event.preventDefault();
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const subject = document.getElementById('subject').value;
-        const message = document.getElementById('message').value;
-
-        const templateParams = {
-            subject: subject,
-            name: name,
-            email: email,
-            message: message
-        };
-        // Send the form data using EmailJS
-        emailjs.send('service_3zoina6', 'template_63m0ilw', templateParams)
-            .then(function (response) {
-                console.log("Success:", response);
-                alert("Your message has been sent!");
-            }, function (error) {
-                console.error("Error:", error);
-                alert("Sorry, there was an issue sending your message. Please try again later.");
-            });
-    });
 })();

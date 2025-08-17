@@ -105,8 +105,14 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3 input-border" type="submit"
-                                        data-i18n="form.send">Mesaj göndər</button>
+                                    <button id="submitBtn" class="btn btn-primary w-100 py-3 input-border"
+                                        type="submit">
+                                        <span data-i18n="form.send">Mesaj göndər</span>
+                                        <span data-role="btn-spinner" class="ms-2 align-middle" style="display:none;">
+                                            <span class="spinner-border spinner-border-sm" role="status"
+                                                aria-hidden="true"></span>
+                                        </span>
+                                    </button>
                                 </div>
                             </div>
                         </form>
@@ -178,6 +184,8 @@
     </script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- EmailJS submit + overlay + localized toasts -->
+    <script src="js/email.js"></script>
 </body>
 
 </html>
